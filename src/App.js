@@ -41,7 +41,7 @@ function App() {
   ]
 
 
-  /* ==== Initial Hook's  ===== */
+  /* ==== initialize Hook's  ===== */
 
   const [startVal, setstart] = useState("");
   const [endVal, setend] = useState("");
@@ -54,7 +54,7 @@ function App() {
 
   const SearchPath = ( ) => {
   
-  /* ==== Initalize some array  ===== */
+  /* ==== initialize some array  ===== */
     
     var Possible = []
     var cost = []
